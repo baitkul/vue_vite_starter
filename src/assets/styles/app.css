@@ -1,0 +1,5 @@
+/*
+  Debug children
+  https://tachyons.io/docs/debug/
+*/
+.debug * { outline: 1px solid gold; }

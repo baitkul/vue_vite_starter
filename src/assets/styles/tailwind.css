@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-gray-900;
+  }
+
+  [type='text'],
+  [type='email'],
+  [type='url'],
+  [type='password'],
+  [type='number'],
+  [type='date'],
+  [type='datetime-local'],
+  [type='month'],
+  [type='search'],
+  [type='tel'],
+  [type='time'],
+  [type='week'],
+  [multiple],
+  textarea,
+  select {
+    @apply w-full border-gray-300 rounded-lg focus:border-primary focus:ring-primary;
+  }
+
+  [type='checkbox'],
+  [type='radio'] {
+    @apply border-gray-300 text-primary focus:ring-primary;
+  }
+
+  [type='checkbox'] {
+    @apply rounded;
+  }
+}
